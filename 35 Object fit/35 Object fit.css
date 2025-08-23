@@ -1,0 +1,9 @@
+body{background-color:aqua;}
+
+img{
+  border: 2px solid black;
+  width: 500px;
+  height: 280px;
+  object-fit:cover;               /*contain,cover,fill*/
+  object-position:top center;    /*top,bottom,right,left,center,top center*/
+}
