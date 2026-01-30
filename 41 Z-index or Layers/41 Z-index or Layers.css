@@ -1,0 +1,42 @@
+body{background-color:aqua}
+
+
+.parent{
+  width: 50%;
+  margin: auto;
+  padding: 25px;
+  color: white;
+}
+
+
+.one{
+  width: 100px;
+  height: 100px;
+  background-color: green;
+  display: inline-block;
+  position: relative;       /*Must Position use*/
+  z-index: 1;              /* Use z-index property*/
+}
+
+.two{
+  width: 100px;
+  height: 100px;
+  background-color: blue;
+  display: inline-block;
+  position: relative;     /*Must Position use*/
+  top: 50px;
+  right: 50px;
+  z-index: 2;           /* Use z-index property*/
+}
+
+.three{
+  width: 100px;
+  height: 100px;
+  background-color: red;
+  display: inline-block;
+  position: relative;   /*Must Position use*/
+  top: 100px;
+  right: 100px;
+  z-index: 3;         /* Use z-index property*/
+}
+
