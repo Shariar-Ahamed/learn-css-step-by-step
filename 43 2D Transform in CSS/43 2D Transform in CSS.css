@@ -1,0 +1,24 @@
+body{background-color: aqua;}
+
+div{
+  width: 200px;
+  height: 100px;
+  background-color: green;
+  margin: 60px auto;
+  transition: 1s;
+  
+  
+}
+
+div:hover{
+
+  /* transform: translate(50px,50px); */
+  /* transform: scale(2); */
+  /* transform: scaleX(2); */
+  /* transform: scaleY(2); */
+  /* transform: rotate(-360deg); */
+  /* transform: skew(-45deg); */
+  /* transform: skewX(-45deg); */
+  /* transform: skewY(-45deg); */
+  transform: scale(2) rotate(360deg);
+}
