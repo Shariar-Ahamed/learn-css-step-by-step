@@ -1,0 +1,20 @@
+body{background-color: aqua;}
+
+.parent{
+  width: 200px;
+  height: 150px;
+  border: 2px solid blue;
+  margin: 50px auto;
+}
+
+.child{
+  width: 200px;
+  height: 150px;
+  background-color: green;
+  /* transform: perspective(500px) rotate(45deg); */
+  /* transform: perspective(500px) rotateX(45deg); */
+  /* transform: perspective(500px) rotateY(45deg); */
+  transform: perspective(500px) rotate3d(10, 100, 50, 30deg);
+  /* transform: perspective(500px) translate3d(50px,100px,50px); */
+
+}
