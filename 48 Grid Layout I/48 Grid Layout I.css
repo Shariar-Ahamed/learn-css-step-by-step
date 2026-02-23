@@ -1,0 +1,24 @@
+body{background-color: aqua;}
+
+.box{
+  display: grid;
+  grid-template-columns: 100px 200px auto 100px;             /*All auto Responsive*/
+  /*grid-template-columns: repeat(4, 100px);*/
+  /*grid-template-columns: repeat(4, 25%);*/               /*Responsive*/
+  /*grid-template-columns: repeat(4, 1fr); */             /*Responsive*/
+  /*grid-template-columns: repeat(4, 1fr) 3fr;*/         /*Responsive*/
+ 
+  grid-template-rows: 80px 40px 100px;                 /*Responsive*/
+
+  /* grid-column-gap: 50px; */
+  /* grid-row-gap: 100px; */
+
+  grid-gap: 50px 10px;                          /*Short Hand Recomandet,Responsive*/
+
+}
+
+.child{
+  border: 1px solid black;
+  padding: 10px;
+  background-color: orangered;
+}
