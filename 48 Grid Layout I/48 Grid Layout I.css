@@ -13,7 +13,7 @@ body{background-color: aqua;}
   /* grid-column-gap: 50px; */
   /* grid-row-gap: 100px; */
 
-  grid-gap: 50px 10px;                          /*Short Hand Recomandet,Responsive*/
+  grid-gap: 50px 10px;                         /*Short Hand Recomandet,Responsive*/
 
 }
 
