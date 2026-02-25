@@ -1,0 +1,32 @@
+body{background-color: aqua;}
+
+#parent{
+   display: grid;                                 /*Must Need*/
+   grid-template-columns: repeat(8, 1fr);        /*Must Need*/ 
+   grid-gap: 30px 20px;                         /*Must Need*/
+
+}
+
+
+
+#grid{
+  border: 1px solid black;
+  /* height: 70px; */
+  padding: 10px;
+  font-size: 25px;
+  background-color: orangered;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+}
+
+.grid1{
+  grid-column-start: 1;
+  grid-column-end: 5;               /*4 Div Left to Right Count*/ 
+  grid-column: 1 / span 5;         /*5 Div Left to Right Count*/ 
+
+  grid-row-start: 1;          
+  grid-row-end: 5;              /*4 Div Up to Down Count*/ 
+  grid-row: 1 / span 5;        /* 4 Div Up to Down Count*/ 
+} 
