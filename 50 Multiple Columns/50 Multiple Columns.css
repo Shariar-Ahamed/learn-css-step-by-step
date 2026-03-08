@@ -1,0 +1,18 @@
+body{background-color: aqua;}
+
+
+div{
+  column-count: 4;
+  text-align: justify;
+  column-gap: 30px;
+  column-rule: 1px solid black;
+  column-width: 200px;   /*Divce Responsive*/
+
+  /*column-rule-style: solid;
+  column-rule-width: 1px ;
+  column-rule-color: red ;*/
+}
+
+h1{
+  column-span: all;
+}
